@@ -1,5 +1,5 @@
-import 'package:api_future/providers/data_provider.dart';
-import 'package:api_future/screens/detail_page.dart';
+import 'package:riverpod_interview/providers/data_provider.dart';
+import 'package:riverpod_interview/screens/detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

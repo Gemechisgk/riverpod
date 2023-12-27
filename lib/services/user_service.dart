@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:api_future/model/user_model.dart';
+import 'package:riverpod_interview/model/user_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart';
 

@@ -1,5 +1,5 @@
-import 'package:api_future/model/user_model.dart';
 import 'package:flutter/material.dart';
+import 'package:riverpod_interview/model/user_model.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({Key? key, required this.e}) : super(key: key);
@@ -18,7 +18,7 @@ class DetailPage extends StatelessWidget {
               ),
             ),
             Text(
-              e.firstname + " " + e.lastname,
+              "${e.firstname} ${e.lastname}",
             ),
             Text(e.email),
           ],
